@@ -83,12 +83,14 @@ body {
     padding: 20px;
     background-color: #222;
     color: #f3f3f3;
-}
-
-.card-header {
     display: flex;
     align-items: center;
 }
+
+/* .card-header {
+    display: flex;
+    align-items: center;
+} */
 
 .card-body {
     padding: 20px;
@@ -135,7 +137,7 @@ a {
     color: #777;
 }
 
-.card-list {
+.card-listcon, .card-listreq {
     padding: 0 20px;
     padding-top: 20px;
     list-style-type: none;
@@ -156,25 +158,25 @@ a {
     justify-content: flex-start;
 }
 
-.avatar-s, .icon {
+.avatar-s, .icon-a, .icon-r {
     height: 50px;
     border-radius: 50%;
     margin-right: 10px;
 }
 
-.icon {
+.icon-a, .icon-r {
     height: 35px;
 }
 
-.icon, .btn {
+.icon-a, .icon-r, .btn {
     cursor: pointer;
 }
 
-.icon:last-child {
+.icon-a:last-child , .icon-r:last-child {
     margin-right: 0;
 }
 
-.badge {
+.badge-r, .badge-c {
     font-size: 1rem;
     height: 24px;
     line-height: 24px;
